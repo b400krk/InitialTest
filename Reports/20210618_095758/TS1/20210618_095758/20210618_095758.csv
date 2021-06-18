@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1,Chrome 91.0.4472.106,,,2021-06-18 09:58:00,2021-06-18 09:58:08,7.685s,PASSED
+,,,,,,,
+Test Cases/TC1,Chrome 91.0.4472.106,,,2021-06-18 09:58:00,2021-06-18 09:58:08,7.481s,PASSED
+"openBrowser("""")",Chrome 91.0.4472.106,,,2021-06-18 09:58:00,2021-06-18 09:58:02,2.022s,PASSED
+"navigateToUrl(""http://localhost:8080/login?from=%2F"")",Chrome 91.0.4472.106,,,2021-06-18 09:58:02,2021-06-18 09:58:03,0.399s,PASSED
+"setText(findTestObject(""Object Repository/jenkins/Page_Sign in Jenkins/input_Welcome to Jenkins_j_username""), ""andi"")",Chrome 91.0.4472.106,,,2021-06-18 09:58:03,2021-06-18 09:58:04,0.954s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/jenkins/Page_Sign in Jenkins/input_Welcome to Jenkins_j_password""), ""A2FRRF0dkTY="")",Chrome 91.0.4472.106,,,2021-06-18 09:58:04,2021-06-18 09:58:04,0.462s,PASSED
+"click(findTestObject(""Object Repository/jenkins/Page_Sign in Jenkins/input_Welcome to Jenkins_Submit""))",Chrome 91.0.4472.106,,,2021-06-18 09:58:04,2021-06-18 09:58:05,0.738s,PASSED
+"click(findTestObject(""Object Repository/jenkins/Page_bersicht Jenkins/a_Andi""))",Chrome 91.0.4472.106,,,2021-06-18 09:58:05,2021-06-18 09:58:06,0.679s,PASSED
+"click(findTestObject(""Object Repository/jenkins/Page_Andi Jenkins/a_17.06.2021, 1021""))",Chrome 91.0.4472.106,,,2021-06-18 09:58:06,2021-06-18 09:58:06,0.530s,PASSED
+"click(findTestObject(""Object Repository/jenkins/Page_Andi 6 Jenkins/span_Konsolenausgabe""))",Chrome 91.0.4472.106,,,2021-06-18 09:58:06,2021-06-18 09:58:07,0.696s,PASSED
+"click(findTestObject(""Object Repository/jenkins/Page_Andi 6 Console Jenkins/svg_Andr Keller_svg-icon""))",Chrome 91.0.4472.106,,,2021-06-18 09:58:07,2021-06-18 09:58:08,0.623s,PASSED
+closeBrowser(),Chrome 91.0.4472.106,,,2021-06-18 09:58:08,2021-06-18 09:58:08,0.107s,PASSED

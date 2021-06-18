@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS1" time="7.857" tests="1" failures="0" errors="0">
+   <testsuite name="TS1" tests="1" failures="0" errors="0" time="7.857" skipped="0" timestamp="2021-06-18 09:58:00" hostname="andi - andres-mbp.blacklake.online" id="Test Suites/TS1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/andi/git/InitialTest/Reports/20210618_095758/TS1/20210618_095758"/>
+         <property name="logFiles" value="/Users/andi/git/InitialTest/Reports/20210618_095758/TS1/20210618_095758/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="andi - andres-mbp.blacklake.online"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 91.0.4472.106"/>
+         <property name="hostAddress" value="10.20.34.16"/>
+         <property name="sessionId" value="3585a159f11bc7bfbf4720d68843cf19"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC1" time="7.481" classname="Test Cases/TC1" status="PASSED">
+         <system-out><![CDATA[2021-06-18 09:58:00 - [TEST_CASE][PASSED] - Test Cases/TC1: Test Cases/TC1
+
+2021-06-18 09:58:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-06-18 09:58:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-06-18 09:58:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-06-18 09:58:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-06-18 09:58:02 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/login?from=%2F"): Navigate to 'http://localhost:8080/login?from=%2F' successfully
+
+2021-06-18 09:58:03 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/login?from=%2F' successfully
+
+2021-06-18 09:58:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/jenkins/Page_Sign in Jenkins/input_Welcome to Jenkins_j_username"), "andi"): Text 'andi' is set on object 'Object Repository/jenkins/Page_Sign in Jenkins/input_Welcome to Jenkins_j_username'
+
+2021-06-18 09:58:04 - [MESSAGE][PASSED] - Text 'andi' is set on object 'Object Repository/jenkins/Page_Sign in Jenkins/input_Welcome to Jenkins_j_username'
+
+2021-06-18 09:58:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/jenkins/Page_Sign in Jenkins/input_Welcome to Jenkins_j_password"), "A2FRRF0dkTY="): Text ****** has been set on object 'Object Repository/jenkins/Page_Sign in Jenkins/input_Welcome to Jenkins_j_password'
+
+2021-06-18 09:58:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/jenkins/Page_Sign in Jenkins/input_Welcome to Jenkins_j_password'
+
+2021-06-18 09:58:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/jenkins/Page_Sign in Jenkins/input_Welcome to Jenkins_Submit")): Object: 'Object Repository/jenkins/Page_Sign in Jenkins/input_Welcome to Jenkins_Submit' is clicked on
+
+2021-06-18 09:58:05 - [MESSAGE][PASSED] - Object: 'Object Repository/jenkins/Page_Sign in Jenkins/input_Welcome to Jenkins_Submit' is clicked on
+
+2021-06-18 09:58:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/jenkins/Page_bersicht Jenkins/a_Andi")): Object: 'Object Repository/jenkins/Page_bersicht Jenkins/a_Andi' is clicked on
+
+2021-06-18 09:58:06 - [MESSAGE][PASSED] - Object: 'Object Repository/jenkins/Page_bersicht Jenkins/a_Andi' is clicked on
+
+2021-06-18 09:58:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/jenkins/Page_Andi Jenkins/a_17.06.2021, 1021")): Object: 'Object Repository/jenkins/Page_Andi Jenkins/a_17.06.2021, 1021' is clicked on
+
+2021-06-18 09:58:06 - [MESSAGE][PASSED] - Object: 'Object Repository/jenkins/Page_Andi Jenkins/a_17.06.2021, 1021' is clicked on
+
+2021-06-18 09:58:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/jenkins/Page_Andi 6 Jenkins/span_Konsolenausgabe")): Object: 'Object Repository/jenkins/Page_Andi 6 Jenkins/span_Konsolenausgabe' is clicked on
+
+2021-06-18 09:58:07 - [MESSAGE][PASSED] - Object: 'Object Repository/jenkins/Page_Andi 6 Jenkins/span_Konsolenausgabe' is clicked on
+
+2021-06-18 09:58:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/jenkins/Page_Andi 6 Console Jenkins/svg_Andr Keller_svg-icon")): Object: 'Object Repository/jenkins/Page_Andi 6 Console Jenkins/svg_Andr Keller_svg-icon' is clicked on
+
+2021-06-18 09:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/jenkins/Page_Andi 6 Console Jenkins/svg_Andr Keller_svg-icon' is clicked on
+
+2021-06-18 09:58:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-06-18 09:58:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-06-18 09:58:00 - [TEST_SUITE][PASSED] - TS1: Test Cases/TC1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
